@@ -5,6 +5,7 @@ import Login from './components/Login';
 import Register from './components/Register'
 import Resetpassword from './components/Resetpassword';
 import './App.css'
+import MyHospitals from './components/Hospitals';
 
 function App() {
 
@@ -16,10 +17,11 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/resetpassword" element={<Resetpassword/>} />
+        <Route path="/hospitals" element={<MyHospitals />}/>
       </Routes>
     </Router>
     </>
   );
 }
 
-export default App
+export default App;
