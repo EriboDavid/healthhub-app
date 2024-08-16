@@ -50,14 +50,14 @@ const LoginForm: React.FC = () => {
             placeholder="Password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500"
           />
         </div>
 
          <div className="flex flex-col gap-4">
             <button
               type="submit"
-              className="w-full py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-500"
               onClick={onLogin}
             >
               Log in
@@ -70,7 +70,7 @@ const LoginForm: React.FC = () => {
               </label>
 
               <Link to="/Resetpassword">
-                <p className="text-blue-500 hover:underline">Forgot Password?</p>
+                <p className="text-red-500 hover:underline">Forgot Password?</p>
               </Link>
 
             </div>
@@ -78,7 +78,7 @@ const LoginForm: React.FC = () => {
         </form>
         <Link
           to="/Register"
-          className="block mt-6 text-center text-blue-500 hover:underline"
+          className="block mt-6 text-center text-red-500 hover:underline"
         >
           Create an account
         </Link>

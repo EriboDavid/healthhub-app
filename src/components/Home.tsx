@@ -51,7 +51,7 @@ export default function Home() {
           <div className="w-full md:w-1/2 p-6">
             <h3 className="text-2xl md:text-3xl font-bold">About Our Hospital</h3>
             <p className="text-base md:text-lg mt-4">
-              Carefinder is a user-friendly tool designed to bridge the gap in healthcare access across Nigeria. We understand the importance of finding reliable healthcare facilities quickly, which is why we’ve created a platform that allows users to easily search for hospitals within their region, export the information to a CSV file, and share it with others. Whether you're seeking medical care for yourself or helping a loved one, Carefinder provides up-to-date contact details and locations of hospitals near you.
+              HealthHub is a user-friendly tool designed to bridge the gap in healthcare access across Nigeria. We understand the importance of finding reliable healthcare facilities quickly, which is why we’ve created a platform that allows users to easily search for hospitals within their region, export the information to a CSV file, and share it with others. Whether you're seeking medical care for yourself or helping a loved one, Carefinder provides up-to-date contact details and locations of hospitals near you.
             </p>
             <p className="text-base md:text-lg mt-4">
               Our mission is to simplify the process of accessing healthcare information, ensuring that everyone has the opportunity to find the care they need, when they need it. With features like user authentication, markdown content creation for admins, and seamless data sharing, Carefinder is built to be intuitive, scalable, and secure.
