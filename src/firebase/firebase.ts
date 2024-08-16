@@ -3,16 +3,17 @@ import { getAuth } from  "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-    apikey: "AIzaSyD9cYT8Q5SkQLGRedWsOT0HkgUEFYcU6Wo",
-    authDomain: "healthubproject.firebaseapp.com",
-    projectId: "healthubproject",
-    storageBucket: "healthubproject.appspot.com",
-    messagingSenderId: "139368940903",
-    appId: "1:139368940903:web:a16b9592933d3b03e7dbc2",
-    measurementId: "G-FNMX87SXW8",
-}
+    apiKey: "AIzaSyDeP_FvWT0jufouZ2PsCs43t2M4GuYtnRI",
+    authDomain: "healthhub-be169.firebaseapp.com",
+    projectId: "healthhub-be169",
+    storageBucket: "healthhub-be169.appspot.com",
+    messagingSenderId: "500046869195",
+    appId: "1:500046869195:web:ea6649e9ea4862395ba14e",
+    measurementId: "G-4S6XCNVHES"
+  };
 
 const app = initializeApp(firebaseConfig);
+
 export const auth = getAuth(app);
 export const firestore = getFirestore(app);
 export default app;
